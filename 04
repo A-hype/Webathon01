@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LPU-FEST | Prashant</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="homep1.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">🎓LPU-FEST</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Events</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h2 class="title">A TIME TRAVEL-THEMED COLLAGE FEST</h2>
+            <h3 class="subtitle">Echoes of time : A Journey Beyond Eras!</h3>
+            <p class="description">Get ready to step beyond the boundaries of time and embark on an extraordinary adventure at [Fest Name], where the past, present, and future collide in a spectacular celebration! This year, we invite you to unlock the secrets of time travel, explore ancient civilizations, witness futuristic wonders, and rewrite history through thrilling events, mind-bending competitions, and electrifying performances.</p>
+
+            <div class="buttons">
+              <a href="#" class="button order-now">Register Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+          </div>
+          <div class="hero-image-wrapper">
+            <img src="hed.jpg" alt="🎓LPU-FEST" class="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper">
+            <img src="lpu j.jpg" alt="About" class="about-image" />
+          </div>
+          <div class="about-details">
+            <h2 class="section-title">About Us</h2>
+            <p class="text">At [LPU-FEST], we believe that time is more than just numbers on a clock—it’s a gateway to endless possibilities. As one of the most dynamic college fests, we bring together the brilliance of the past, the energy of the present, and the innovations of the future in a thrilling time-travel-themed celebration.
+
+                Organized by passionate students of [Lovely Professional University], our fest is a blend of creativity, technology, culture, and adventure. From electrifying competitions and thought-provoking workshops to mesmerizing performances and futuristic exhibitions, we offer a platform where imagination knows no bounds.
+                
+                Whether you want to relive history, decode the mysteries of time, or envision the world ahead, [Fest Name] is the place to be. Join us as we break the barriers of time and create unforgettable memories!
+                
+                Time waits for none, but at [LPU-FEST], we make every moment legendary.</p>
+            <div class="social-link-list">
+              <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fa-brands fa-xlinkedIn"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu section -->
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">EVENTS</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="d.jpg" alt="Hot Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dinosaur Event</h3>
+                <p class="text">The Dinosaur Event at LPU was an exciting journey into the prehistoric world. With life-size models, interactive fossil exhibits, and a VR experience, students got a glimpse of dinosaurs.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="icea.jpg" alt="Cold Beverages" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Ice Age Event</h3>
+                <p class="text">The Ice Age Event at transported students back to a frozen world of towering glaciers and prehistoric creatures. With immersive exhibits featuring woolly mammoths, saber-toothed cats, and</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="image8.jpg" alt="Refreshment" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Early Men Event</h3>
+                <p class="text">The Early Men Event at brought history to life, showcasing the evolution of human civilization from primitive hunters to skilled toolmakers. Students explored interactive exhibits</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="med.jpg" alt="Special Combos" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Medieval World Event</h3>
+                <p class="text">The Medieval World Event at transported students back to the age of knights, castles, and legendary battles. The event featured captivating reenactment.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="robo.webp" alt="Dessert" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Futuristic Robot Event</h3>
+                <p class="text">The Futuristic Robo Event at [Your College Name] was a thrilling glimpse into the world of advanced robotics and artificial intelligence. The event showcased cutting-edge robots.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img src="king.jpg" alt="burger & French Fries" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">King Era Events</h3>
+                <p class="text">The King Era Event at [Your College Name] transported students back in time to the grandeur of ancient kingdoms. The event featured royal court reenactments, majesti</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Testimonials section -->
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="arjit.webp" alt="User" class="user-image" />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback">"Loved the French roast. Perfectly balanced and rich. Will order again!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="hed.jpg" alt="User" class="user-image" />
+                  <h3 class="name">James Wilson</h3>
+                  <i class="feedback">"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-3.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Michael Brown</h3>
+
+                  <i class="feedback">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-4.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Emily Harris</h3>
+
+                  <i class="feedback">"Excellent quality! Fresh beans and quick delivery. Highly recommend."</i>
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="images/user-5.jpg" alt="User" class="user-image" />
+                  <h3 class="name">Anthony Thompson</h3>
+
+                  <i class="feedback">"Best decaf I've tried! Smooth and flavorful. Arrived promptly."</i>
+                </li>
+              </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="image2.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image3.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image4.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image5.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image6.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item">
+              <img src="image7.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>Any Enquroy Visit Block-34</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@LPU-FESTwebsite.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+91-9693869441)</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Saturday: 10:00 AM - 5:00 PM</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Sunday: Closed</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.codingnepalweb.com</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 🎓LPU-FEST</p>
+
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Linking Swiper script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Linking custom script -->
+    <script src="homep2.js"></script>
+  </body>
+</html>
